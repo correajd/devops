@@ -33,7 +33,7 @@
         <snapshotRepository>
             <id>snapshot</id>
             <name>snapshots</name>
-            <url>http://127.0.0.1:8081/artifactory/libs-snapshot-local</url>
+            <url>http://devops-docker-sandbox_jfrog_1:8081/artifactory/libs-release-local</url>
         </snapshotRepository>
     </distributionManagement>
 

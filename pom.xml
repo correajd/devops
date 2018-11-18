@@ -84,6 +84,7 @@
                     <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <forkCount>0</forkCount>
                 </configuration>
             </plugin>
 		</plugins>

@@ -84,11 +84,23 @@
                     <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <forkCount>0</forkCount>
                 </configuration>
             </plugin>
 		</plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <configuration>
+                        <forkCount>0</forkCount>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
 	</build>
+
+
 
 
 </project>
